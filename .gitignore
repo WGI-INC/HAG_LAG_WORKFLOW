@@ -1,0 +1,58 @@
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ── Virtual Environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Poetry ─────────────────────────────────────────────────────────────────────
+# Commit pyproject.toml and poetry.lock — do NOT ignore them
+dist/
+*.egg-info/
+
+# ── Environment Variables ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example   # Always commit the example — never the real one
+
+# ── Testing & Coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ruff_cache/
+
+# ── Build & Distribution ───────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+
+# ── Type Checking ──────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.pyright/
+
+# ── Editors ────────────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/settings.json     # Share team settings
+!.vscode/extensions.json   # Share recommended extensions
+.idea/
+*.swp
+*.swo
+
+# ── OS ─────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+*.log
+logs/
